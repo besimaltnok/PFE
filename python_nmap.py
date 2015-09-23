@@ -27,6 +27,6 @@ except NameError:
 	exit
 
 print "\n"
-print "Taranan Sistem Tipi :  %s " %(sc['scan'][host]['osmatch'][0]['name'])
-print "Tarama Zamani       : %s " % (sc["nmap"]['scanstats']['timestr'])
-print "Tarama Suresi       : %s " % (sc["nmap"]['scanstats']['elapsed'])
+print "Scanned System Type :  %s " %(sc['scan'][host]['osmatch'][0]['name'])
+print "Start scanning      : %s " % (sc["nmap"]['scanstats']['timestr'])
+print "Scan Time           : %s " % (sc["nmap"]['scanstats']['elapsed'])
