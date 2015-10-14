@@ -17,7 +17,7 @@ try:
 
 	for i in port_list:
 		sc = nm.scan(hosts=host, arguments=argument + str(i))
-   		print "%s\t%s\t%s\t%s" %(i, nm[host]['tcp'][i]['name'] , nm[host]['tcp'][i]['state'], nm[host]['tcp'][i]['reason'])
+	   	print "%s\t%s\t%s\t%s" %(i, nm[host]['tcp'][i]['name'] , nm[host]['tcp'][i]['state'], nm[host]['tcp'][i]['reason'])
 except KeyboardInterrupt:
 	print "\n"
 	print "!Scanning Stop!"
