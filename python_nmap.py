@@ -23,7 +23,7 @@ except KeyboardInterrupt:
 	print "!Scanning Stop!"
 	exit
 except NameError:
-	print "Stop!!!"
+	print "Stop!!!!"
 	exit
 
 print "\n"
