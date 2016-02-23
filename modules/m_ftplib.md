@@ -31,5 +31,6 @@ ftp.close()
 + Dosya yükleme
 
 ```python
-ftp.storlines("STOR " + file, open(file))
+file = "filename"
+ftp.storbinary("STOR " + file, open(file, "rb"), 1024)
 ```
