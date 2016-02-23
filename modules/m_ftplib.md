@@ -27,3 +27,9 @@ ftp.close()
 
 
 ```
+
++ Dosya yükleme
+
+```python
+ftp.storlines("STOR " + file, open(file))
+```
