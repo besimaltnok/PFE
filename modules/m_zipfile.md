@@ -1,4 +1,4 @@
-### zipfile modülü hakkında
+### zipfile modülü hakkında kısa örnekler
 
 + Zip dosyası olup olmadığını kontrol etmek
 
