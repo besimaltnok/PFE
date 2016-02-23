@@ -19,3 +19,13 @@ zip_file.extractall(pwd=password)
 
 ```
 
++ Zip dosyasının içeriğini listelemek
+
+```python
+import zipfile
+filename = "file.zip"
+zip_file = zipfile.ZipFile(zipfilename, 'r')
+list     = zip_file.namelist()
+print list
+
+```
