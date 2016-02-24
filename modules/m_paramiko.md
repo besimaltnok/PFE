@@ -20,7 +20,7 @@ for i in stdout:
     print i.strip()
 ```
 
-+ SSH üzerinden dizin listeleme
++ SFTP üzerinden dizin listeleme
 
 ```python
 sftp = ssh.open_sftp()
@@ -28,7 +28,7 @@ print sftp.listdir()
 
 ```
 
-+ Dizin değiştirme
++ SFTP üzerinden dizin değiştirme
 
 ```python
 sftp.chdir("/tmp/")
