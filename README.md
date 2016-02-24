@@ -1,4 +1,4 @@
-### Hackerlar için Python ###
+### Herkes için Python ###
 
 
 Konu         | Açıklama
