@@ -34,3 +34,10 @@ ftp.close()
 file = "filename"
 ftp.storbinary("STOR " + file, open(file, "rb"), 1024)
 ```
+
++ Dosya indirme
+```python
+file = "filename"
+ftp.retrbinary("RETR " + filename ,open(filename, 'wb').write)
+```
+
