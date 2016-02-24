@@ -34,3 +34,16 @@ print sftp.listdir()
 sftp.chdir("/tmp/")
 
 ```
+
++ SFTP üzerinden dosya yükleme
+
+```python
+
+```
+
++ SFTP üzerinden dosya indirme
+
+```python
+
+
+```
