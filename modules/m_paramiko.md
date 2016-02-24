@@ -19,3 +19,18 @@ stdin,stdout,stderr = ssh.exec_command("pwd")
 for i in stdout:
     print i.strip()
 ```
+
++ SSH üzerinden dizin listeleme
+
+```python
+sftp = ssh.open_sftp()
+print sftp.listdir()
+
+```
+
++ Dizin değiştirme
+
+```python
+sftp.chdir("/tmp/")
+
+```
