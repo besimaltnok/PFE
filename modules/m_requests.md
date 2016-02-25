@@ -49,3 +49,20 @@ resp['expires']
 ```python
 get.text
 ```
+### Yetkilendirme Süreci ###
+
++ Basic
+
+```python
+from requests.auth import HTTPBasicAuth
+requests.get('https://url/login', auth=HTTPBasicAuth('user', 'pass'))
+# veya #
+requests.get('https://url/login', auth=('user', 'pass'))
+```
+
++ Digest
+
+```python
+from requests.auth import HTTPDigestAuth
+requests.get('https://url/login', auth=HTTPDigestAuth('user', 'pass'))
+```
