@@ -1,5 +1,8 @@
 ### spwd modülü hakkında
 
++ Shadow parola veritabanına erişebilir.
++ Doğru çalışması için root yetkisi gereklidir.
++ Demet gibi bir obje döndürür.
 
 ```python
 import spwd
