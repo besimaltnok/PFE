@@ -15,6 +15,13 @@ import requests
 get  = requests.get(url,  timeout=0.01)
 post = requests.post(url, timeout=0.008)
 ```
++ İsteklere parametre  ekleme
+
+```python
+import requests
+payload = {'user': 'besim', 'passw': '1besim1'}
+requests.get('http://url/giris', params=payload)
+```
 
 + Status Code okuma
 
