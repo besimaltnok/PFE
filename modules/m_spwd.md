@@ -9,8 +9,7 @@ print p
 + Dönen değer ve içerikleri
 
 ```python
-
-0 sp_nam      : Login olmak için kullanılan kullanıcı ismi
+0   sp_nam      : Login olmak için kullanılan kullanıcı ismi
 1	sp_pwd      : Şifreli parola
 2	sp_lstchg   : En son ne zaman değiştirildiği
 3	sp_min      : Minimum değişim tarihi
