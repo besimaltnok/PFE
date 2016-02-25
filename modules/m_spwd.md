@@ -1,4 +1,4 @@
-### spwd modülü hakkında ### 
+### spwd modülü hakkında
 
 
 ```python
