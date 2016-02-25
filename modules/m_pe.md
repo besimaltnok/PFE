@@ -10,7 +10,7 @@ is_exe  = pe.is_exe()
 
 ```
 
-+ Önemli örnekler 1
++ Örnek 1
 
 ```python
 
@@ -22,7 +22,7 @@ def ImportTables():
 
 ```
 
-+ Önemli örnekler 2
++ Örnek 2
 
 ```python
 
