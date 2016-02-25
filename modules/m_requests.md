@@ -8,6 +8,14 @@ get  = requests.get(url)
 post = requests.post(url)
 ```
 
++ İsteklere timeout değeri ekleme
+
+```python
+import requests
+get  = requests.get(url,  timeout=0.01)
+post = requests.post(url, timeout=0.008)
+```
+
 + Status Code okuma
 
 ```python
