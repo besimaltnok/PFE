@@ -18,6 +18,13 @@ type     = Kullanıcıdan alınacak parametrenin type bilgisi
 required = Gerekli mi değil mi ?
 ```
 
++ Varsayılan bir değer tanımlamak istersek
+
+```python
+DEFAULT_PASS_LIST = "/home/pythoncu/pass.txt"
+parser.add_argument("--passlist", "-p", help="wordlist for password, format:/home/user/passlist.txt", default=DEFAULT_PASS_LIST)
+```
+
 + Tanımladığımız argümanı kullanabilmek için
 
 ```python
