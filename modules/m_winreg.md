@@ -1,4 +1,4 @@
-### winreg modülü hakkında
+### _winreg modülü hakkında
 
 + Regedit üzerinde işlem yapmanızı sağlayan bir modüldür.
 
