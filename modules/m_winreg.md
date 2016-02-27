@@ -16,3 +16,4 @@ key  = _winreg.OpenKey(_winreg.HKEY_CURRENT_USER, "Software\\Microsoft\\Windows\
 import _winreg
 key  = _winreg.OpenKey(_winreg.HKEY_CURRENT_USER, "Software\\Microsoft\\Windows\\CurrentVersion\\Run")
 ```
++ Kullanılabilecek diğer metotlar
