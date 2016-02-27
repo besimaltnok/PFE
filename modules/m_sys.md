@@ -15,7 +15,8 @@ sys.version_info(major=2, minor=7, micro=9, releaselevel=’final’, serial=0)
 sys.argv # kullanıcıdan program için parametre alır.
 sys.argv[1] # ikinci paramtre
 
-sys.stdout.write(“BesimCo!\n”) # Ekrana çıktı verir.
+sys.stdout.write(“BesimCo!\n”) 
+# Ekrana çıktı verir.
 print “type in value: “, ; sys.stdin.readline()[:-1] # Kullanıcıdan veri alır.
 
 ```
