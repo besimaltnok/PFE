@@ -31,6 +31,8 @@ if __name__ == "__main__":
 	print(Fore.GREEN + tool)
 	print(Style.RESET_ALL)
 	passfile = open("pass.txt", "r").readlines()
+	print "\n[*] Read ",(len(passfile))," password from file"
+	print "[-.-] FTP Crack started\n"
 	map(ftp_brute, passfile)
-	print Back.WHITE + Fore.RED + "I can't found password for you :/ I m sorry :-("
-	print Back.WHITE + Fore.RED + "Try ", len(passfile), " password for cracking :/"
+	print  Fore.RED + "I can't found password for you :/ I m sorry :-("
+	print  Fore.RED + "Try ", len(passfile), " password for cracking :/"
