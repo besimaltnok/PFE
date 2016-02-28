@@ -24,7 +24,7 @@ def ftp_brute(p):
 		sys.exit(0)
 		
 	except Exception, e:
-		sys.stdout.flush()
+		pass
 
 if __name__ == "__main__":
 	os.system('reset')
