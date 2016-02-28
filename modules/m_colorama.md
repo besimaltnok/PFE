@@ -21,7 +21,7 @@ Style: DIM, NORMAL, BRIGHT, RESET_ALL
 ### ANSI color code (Terminal renklendirme)
 
 + Söz dizimi 
-+ 
+
 ```python
 print "\033[5;41;32mGREEN TEXT\033[0m" 
 
