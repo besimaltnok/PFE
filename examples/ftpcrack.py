@@ -26,5 +26,5 @@ if __name__ == "__main__":
 	print(Style.RESET_ALL)
 	passfile = open("pass.txt", "r").readlines()
 	map(ftp_brute, passfile)
-	print Back.WHITE + Fore.RED + "The password could not be determined :-("
+	print Back.WHITE + Fore.RED + "I can't found password for you :/ I m sorry :-("
 	print Back.WHITE + Fore.RED + "Try ", len(passfile), " password for cracking :/"
