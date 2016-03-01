@@ -36,3 +36,9 @@ db.update({'count': 10}, sorgu.type == 'armut')
 ```python
 db.remove(sorgu.type == 'armut')
 ```
++ Eklenen Elemanları Çağırmak
+```python
+db.all()
+db.all()[2]
+db.all()[2]['type']
+```
