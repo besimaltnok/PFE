@@ -7,7 +7,7 @@ isim.replace('e', '')
 #Bsim
 ```
 
-+split()
++ split()
 ```python
 site = "www.besimaltinok.com"
 site.split('.')
