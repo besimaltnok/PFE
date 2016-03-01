@@ -9,7 +9,7 @@ c = 8.3
 a, b, c = "besim", 5, 8.3
 ```
 
-+ Değişken olarak tnımlayamadıklarımız
++ Değişken olarak tanımlayamadıklarımız
 ```python
 import keyword
 listem = keyword.kwlist
