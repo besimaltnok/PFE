@@ -18,6 +18,8 @@ Yayında ...""")
 
 print("www", ""besimaltinok", "com", sep=".")
 # www.besimaltinok.com
+
+print("Besim", "Altinok", sep=None)
 ```
 
 + Fonksiyon tanımlama
