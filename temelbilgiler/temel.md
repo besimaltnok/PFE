@@ -22,7 +22,7 @@ print("Mehmet Köse", "Besim", "İsmail")
 print("""Herkes için Python
 Yayında ...""")
 
-print("www", ""besimaltinok", "com", sep=".")
+print("www", "besimaltinok", "com", sep=".")
 # www.besimaltinok.com
 
 print("Besim", "Altinok", sep=None)
