@@ -1,7 +1,11 @@
 ### TinyDB!
 
 + Neden TinyDB
-+ Neden TinyDB DEĞİL!
+
+- Kurulum gerektirmemesi
+- Kod ile birlikte taşınabilen bir veri tabanı olması
+- 100% json
+- dosya tabanlı
 
 + Kurulumu
 
