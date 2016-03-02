@@ -8,6 +8,12 @@ Kod ile birlikte taşınabilen bir veri tabanı olması
 100% json
 dosya tabanlı
 ```
++ Neden TinyDB değil
+
+```python
+Saniyede binlerce sorgu yapılacaksa performansı düşük kalır
+```
+
 + Kurulumu
 
 ```python
