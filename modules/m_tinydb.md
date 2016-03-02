@@ -3,6 +3,7 @@
 + Neden TinyDB
 
 ```python
+Basit ve kullanımı kolay olacak şekilde tasarlanmıştır.
 Kurulum gerektirmemesi
 Kod ile birlikte taşınabilen bir veri tabanı olması
 100% json
