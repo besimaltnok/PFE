@@ -2,10 +2,10 @@
 
 + Neden TinyDB
 
-- Kurulum gerektirmemesi
-- Kod ile birlikte taşınabilen bir veri tabanı olması
-- 100% json
-- dosya tabanlı
+Kurulum gerektirmemesi
+Kod ile birlikte taşınabilen bir veri tabanı olması
+100% json
+dosya tabanlı
 
 + Kurulumu
 
