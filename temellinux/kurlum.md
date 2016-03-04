@@ -76,3 +76,13 @@
 + Tamamlandı.
 
 <a href="#" rel="some text">![cypm](/img/u10.png)</a>
+
++ VMware Tools Kurulumu
+
+```python
+apt-get update
+apt-get upgrade
+apt-get install open-vm-tools
+apt-get install open-vm-toolbox
+```
+
