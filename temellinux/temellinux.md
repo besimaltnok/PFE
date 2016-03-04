@@ -19,9 +19,9 @@ mkdir -p klasör/klasör2
 
 ```python
 ls
-ls -l
-ls -la
-ls -lS
-ls -lt
-ls -lh
+ls -l   # gizli dosyaları gösterme
+ls -la  # gizli dosyaları da göster (ismi nokta ilebaşlayan dosyalar)
+ls -lS  # boyuta göre sıralama
+ls -lt  # zamana gmre sıralama
+ls -lh  # okunabilir şekilde sıralama 
 ```
