@@ -1,6 +1,6 @@
 ## Kurulum
 
-+ Sanal Makine
+### Sanal Makine
 
 
 + Sanal makine oluşturma
