@@ -14,3 +14,14 @@ touch dosya1 dosya2 dosya3
 mkdir klasörismi
 mkdir -p klasör/klasör2
 ```
+
++ Dosya listeleme
+
+```python
+ls
+ls -l
+ls -la
+ls -lS
+ls -lt
+ls -lh
+```
