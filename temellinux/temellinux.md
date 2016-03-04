@@ -25,3 +25,15 @@ ls -lS  # boyuta göre sıralama
 ls -lt  # zamana gmre sıralama
 ls -lh  # okunabilir şekilde sıralama 
 ```
+
++ cd (change directory)
+
+```python
+Dizin geçişleri için kullanılır
+```
+
++ pwd (print name of current/working directory)
+
+```python
+Üzerinde çalıştığımız dizinin adını ekrana basar
+```
