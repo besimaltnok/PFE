@@ -14,6 +14,12 @@ touch dosya1 dosya2 dosya3
 mkdir klasörismi
 mkdir -p klasör/klasör2
 ```
++ Dosya ve Klasör Silme
+
+```python
+rm -r klasörismi
+rm dosyaismi
+```
 
 + Dosya listeleme
 
