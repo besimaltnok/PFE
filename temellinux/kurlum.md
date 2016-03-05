@@ -140,6 +140,9 @@ apt-get install open-vm-toolbox
 
 <a href="#" rel="some text">![cypm](/img/o14.png)</a>
 
-+ Başlat :)
 
 <a href="#" rel="some text">![cypm](/img/o15.png)</a>
+
++ Başlat :)
+
+<a href="#" rel="some text">![cypm](/img/o16.png)</a>
