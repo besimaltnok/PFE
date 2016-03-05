@@ -110,3 +110,36 @@ apt-get install open-vm-toolbox
 <a href="#" rel="some text">![cypm](/img/o6.png)</a>
 <a href="#" rel="some text">![cypm](/img/o7.png)</a>
 
+### Sanal Makine Oracle VirtualBox ile Sanal Makine Oluşturmak
+
++ Yeni 
+
+<a href="#" rel="some text">![cypm](/img/o8.png)</a>
+
++ Uzman Kip (Daha kullanışlı bir kurulum sağlar)
+
+<a href="#" rel="some text">![cypm](/img/o9.png)</a>
+
++ Makine ismi ve RAM ayarları
+
+<a href="#" rel="some text">![cypm](/img/o10.png)</a>
+
++ Sanal makine imajının kuralacağı yer
+
+<a href="#" rel="some text">![cypm](/img/o11.png)</a
+
++ Seçilen alan virtualBox tarafından işlenir.
+
+<a href="#" rel="some text">![cypm](/img/o12.png)</a>
+
++ Yapılandırmalar
+
+<a href="#" rel="some text">![cypm](/img/o13.png)</a>
+
++ Kurulum dosyasının verilmesi (ISO)
+
+<a href="#" rel="some text">![cypm](/img/o14.png)</a>
+
++ Başlat :)
+
+<a href="#" rel="some text">![cypm](/img/o15.png)</a>
