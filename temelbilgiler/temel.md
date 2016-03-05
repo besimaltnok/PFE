@@ -38,3 +38,46 @@ f.close()
 def Fonksiyon():
     pass
 ```
+
+### Dosya işlemleri
+
++ Dosya Okuma 1
+```python
+file = open("file.txt", "r")
+data = file.read()
+print data
+file.close()
+```
++ Dosya Okuma 2 (Satır Satır okuma)
+```python
+file = open("file.txt", "r")
+data = file.readline()
+print data
+file.close()
+```
++ Dosya Okuma 3 (liste şeklinde)
+```python
+file = open("file.txt", "r")
+data = file.readlines()
+print data
+file.close()
+```
+
++ Dosya Okuma (with open)
+```python
+with open("filename", "r") as dosya:
+    print(filename.read())
+```
++ Dosya Yazma 1
+```pytho
+file = open("file.txt", "w")
+file.write("Merhaba Meryem")
+file.close()
+```
+
++ Dosya Yazma 2 
+```pytho
+file = open("file.txt", "a")
+file.write("Merhaba Meryem")
+file.close()
+```
