@@ -18,7 +18,7 @@ Tıpkı linux sistemde 'root' şifresi girer gibi.
 
 ```python
 text = "Merhaba benim adım Besim"
-Text değişkeni ieçrisindeki ifadeyi tesr çevirebilmek için ne yapabiliriz ?
+Text değişkeni ieçrisindeki ifadeyi ters çevirebilmek için ne yapabiliriz ?
 ```
 
 + Canlı URL adresleri
