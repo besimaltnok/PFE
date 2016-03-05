@@ -1,6 +1,6 @@
 ## Kurulum
 
-### Sanal Makine
+### Sanal Makine Vmware
 
 
 + Sanal makine oluşturma
@@ -85,4 +85,28 @@ apt-get upgrade
 apt-get install open-vm-tools
 apt-get install open-vm-toolbox
 ```
+
+### Sanal Makine Oracle VirtualBox
+
++ Kurluma Başlamak 
+
+<a href="#" rel="some text">![cypm](/img/o1.png)</a>
+
++ Kurulum yerini seçmek
+
+<a href="#" rel="some text">![cypm](/img/o2.png)</a>
+
++ Dosyalar ilişkilendirilsin ve kısayol oluşturulsun
+
+<a href="#" rel="some text">![cypm](/img/o3.png)</a>
+
++ Ağ yaılandırması yapılacak, bu nedenle ağ bağlantınız durdurulabilir.
+
+<a href="#" rel="some text">![cypm](/img/o4.png)</a>
+
++ Kuruluma Başlamak
+
+<a href="#" rel="some text">![cypm](/img/o5.png)</a>
+<a href="#" rel="some text">![cypm](/img/o6.png)</a>
+<a href="#" rel="some text">![cypm](/img/o7.png)</a>
 
