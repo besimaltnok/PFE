@@ -69,14 +69,14 @@ with open("filename", "r") as dosya:
     print(filename.read())
 ```
 + Dosya Yazma 1
-```pytho
+```python
 file = open("file.txt", "w")
 file.write("Merhaba Meryem")
 file.close()
 ```
 
 + Dosya Yazma 2 
-```pytho
+```python
 file = open("file.txt", "a")
 file.write("Merhaba Meryem")
 file.close()
