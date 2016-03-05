@@ -146,3 +146,9 @@ apt-get install open-vm-toolbox
 + Başlat :)
 
 <a href="#" rel="some text">![cypm](/img/oend.png)</a>
+
+### Videolu Eğitim Linkleri (sduyazilim)
+
++ [Temel Linux Komutları ](https://www.youtube.com/watch?v=ywarZ0t01Fw)
++ [Temel Terminal Kısayolları](https://www.youtube.com/watch?v=e1oCklDGZw4)
++ [Vmware Hakkında](https://www.youtube.com/watch?v=kC9P0f-VNW4)
