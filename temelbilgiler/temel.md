@@ -41,6 +41,15 @@ def Fonksiyon():
 
 ### Dosya işlemleri
 
++ Dosya Açma Kipleri ve Anlamları
+
+```python
+r  = Okuma modunda
+w  = Yazma modunda
+a  = Dosyanın sonuna ekleme yapmak için kullanılır. Dosya içeriği korunur.
+r+ = Dosyanın başına ekleme yapmak için kullanılır.
+```
+
 + Dosya Okuma 1
 ```python
 file = open("file.txt", "r")
