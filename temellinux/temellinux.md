@@ -37,3 +37,13 @@ Dizin geçişleri için kullanılır
 ```python
 Üzerinde çalıştığımız dizinin adını ekrana basar
 ```
+
+### Terminal Kısayolları
+
+ - CTRL + Shift + C = Terminalde seçili metni kopyalar
+ - CTRL + Shift + V = Kopyalanan veriyi yapıştırır.
+ - CTRL + L         = Terminal ekranını temizler
+ - CTRL + A         = Terminalde imleci satır başına getirir
+ - CTRL + U         = İmlecin sol tarafındakileri keser
+ - CTRL + K         = İmlecin sağ tarafındakileri keser
+ - CTRL + Y         = "ctrl + a" ve "ctrl + v" işlemleri ile alınan textleri terminale yapıştırır.
