@@ -32,3 +32,28 @@ esc :q! = kayıt etmeden zorla çık
 ```python
 vim +X deneme.py 
 ```
+
+## Nano
+
++ Bir dosya açmak
+```python
+vim deneme.py  
+```
+
++ Yazdıklarımızı kayıt etmek için
+
+```python
+ctrl + o + Enter = Yazdıklarımızı kayıt etmek için
+```
+
++ Çıkış yapmak için
+
+```python
+ctrl + x = Çıkış yapar 
+```
+
++ Arama yapmak için
+
+```python
+ctrl + k = Bulunduğunuz dosyada arama yapmak için kullanabilirsiniz.
+```
