@@ -20,3 +20,10 @@ Terminale "ipython3 veya ipython" yazılır.
 %whos   = Daha önce tanımlanan değişkenler, tipleri ve içlerinde tuttukları değerler gösterilir. 
 %who_ls = Daha önce tanımlanan değişken isimleri liste halinde döndürülür.
 ```
+
++ Bu shell ekranındayken yaptıklarımızı kayıt etmek
+
+```python
+save dosyaismi
+save dosyaismi 1-15 # Hangilerini kayıt edeceğimizi seçebiliriz.
+```
