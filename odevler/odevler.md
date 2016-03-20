@@ -34,3 +34,8 @@ ekrana bastırmayı deneyin.
 Size verilen bir txt dosyası var. Bu dosyadan 'bad characters' çıkarıldığı
 zaman, anlamlı birşeyler çıkacak. Bunu yapabilir misiniz ?
 ```
++ Root Checker
+
+```python
+Programı çalıştıran kişinin **root** olup olmadığını tespit etmeye çalışın.
+```
