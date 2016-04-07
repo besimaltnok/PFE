@@ -47,7 +47,7 @@ resp['expires']
 + Dönen içeriği okuma
 
 ```python
-get.text
+get.getText()
 ```
 ### Yetkilendirme Süreci ###
 
