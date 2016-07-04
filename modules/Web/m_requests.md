@@ -67,7 +67,7 @@ from requests.auth import HTTPDigestAuth
 requests.get('https://url/login', auth=HTTPDigestAuth('user', 'pass'))
 ```
 
-+ SSL Doğrulama
+### SSL Doğrulama
 
 ```python
 import requests
