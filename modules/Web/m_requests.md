@@ -66,3 +66,14 @@ requests.get('https://url/login', auth=('user', 'pass'))
 from requests.auth import HTTPDigestAuth
 requests.get('https://url/login', auth=HTTPDigestAuth('user', 'pass'))
 ```
+
++ SSL Doğrulama
+
+```python
+import requests
+
+try:
+    requests.get('https://cyberlab.sdu.edu.tr', verify=True)
+except requests.exceptions.SSLError:
+    print "This web site has not a SSL cert"
+```
